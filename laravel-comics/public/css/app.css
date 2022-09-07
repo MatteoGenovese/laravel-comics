@@ -10870,7 +10870,7 @@ div.pz_card .img-container {
 }
 
 .footer-top {
-  background-image: url(../assets/images/footer-bg.jpg);
+  background-image: url("../images/footer-bg.jpg");
   width: 100%;
   height: 17rem;
 }
