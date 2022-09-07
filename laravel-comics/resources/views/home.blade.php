@@ -23,7 +23,7 @@
                         <img src="{{ $comic->image }}" alt="Default">
                     </div>
                     <div>{{ $comic->title  }}</div>
-                    <div>{{ $comic->type }}</div>
+                    {{-- <div>{{ $comic->type }}</div> --}}
                 </div>
             
             @empty
