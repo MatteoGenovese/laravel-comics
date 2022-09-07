@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $data = config('comics');
-    // dd($data);
-    return view('includes.main', ['comics' => $data]);
+    $comicData = config('comics');
+    $linkData = config('links');
+    $productData = config ('products');
+    return view('home', ['comics' => $comicData, 'links' => $linkData, 'products' => $productData]);
 });
