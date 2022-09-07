@@ -50,7 +50,7 @@
 
 
             <div id="footer-right-container">
-                <img src="../assets/images/dc-logo-bg.png" alt="">
+                <img src="{{asset('images/dc-logo-bg.png')}}" alt="">
             </div>
         </div>
     </div>
@@ -64,11 +64,11 @@
 
             <div id="footer-right-container">
                 <span>FOLLOW US</span>
-                <img src="../assets/images/footer-facebook.png" alt="">
-                <img src="../assets/images/footer-periscope.png" alt="">
-                <img src="../assets/images/footer-pinterest.png" alt="">
-                <img src="../assets/images/footer-twitter.png" alt="">
-                <img src="../assets/images/footer-youtube.png" alt="">
+                <img src="{{asset('images/footer-facebook.png')}}" alt="">
+                <img src="{{asset('images/footer-periscope.png')}}" alt="">
+                <img src="{{asset('images/footer-pinterest.png')}}" alt="">
+                <img src="{{asset('images/footer-twitter.png')}}" alt="">
+                <img src="{{asset('images/footer-youtube.png')}}" alt="">
             </div>
         </div>
 
