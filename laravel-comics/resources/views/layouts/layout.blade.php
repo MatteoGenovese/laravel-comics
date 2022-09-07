@@ -14,6 +14,8 @@
 
     @yield('main-content')
 
+    @include('includes.products')
+
     @include('includes.footer')
 
     @yield('final-scripts')
