@@ -7,7 +7,7 @@
 <main>
 
     <div class="jumbo-box">
-        <img src=" {{ asset('./assets/images/jumbotron.jpg') }}" alt="non trovato"></img>
+        <img src=" {{ asset('./images/jumbotron.jpg') }} " alt="non trovato"></img>
     </div>
     <div class="container">
         <div class="current">CURRENT SERIES</div>
@@ -16,8 +16,8 @@
         <div class="container">
         <div id="cards">
 
+
             @forelse ($comics as $comic)
-            
             <div class="pz_card">
                     <div class="img-container">
                         <img src="{{ $comic->image }}" alt="Default">
@@ -29,6 +29,7 @@
             @empty
 
             @endforelse
+            
             </div>
 
 
